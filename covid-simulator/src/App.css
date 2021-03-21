@@ -1,0 +1,82 @@
+:root {
+  --bg: rgb(48, 43, 39);
+}
+
+.topBar {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 100%;
+  width: 33.3%;
+  color: azure;
+  background-color: rgb(87, 108, 168);
+  transition-timing-function: ease-in-out;
+  transition: background-color 200ms;
+}
+
+.buttons button:hover {
+  background-color:rgba(39, 70, 144);
+}
+
+.buttons button:disabled {
+  color: white;
+  background-color: rgb(27, 38, 79);
+}
+
+.maskSelection {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 10%;
+}
+
+.middle {
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 40%;
+}
+
+.stats {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 10%;
+}
+
+.scroller {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+}
+
+.playground {
+  height: 80vh;
+}
+
+.bottomBar {
+  color: white;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: row;
+}
